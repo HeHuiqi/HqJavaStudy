@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb920726-23e3-43c0-b1eb-35535549e59b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqMySqlManager.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqMySqlManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/Main.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java" />
     </list>
     <ignored path="HqJavaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,19 +31,35 @@
       <file leaf-file-name="HqCharsetUse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HqIOTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HqIOTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="277">
+              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqChannelUse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqChannelUse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,17 +78,17 @@
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HqMySqlManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HqMySqlManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqMySqlManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="117" column="34" lean-forward="false" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+            <state relative-caret-position="1972">
+              <caret line="120" column="37" lean-forward="false" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
               <folding>
                 <marker date="1500906533000" expanded="true" signature="2330:2364" ph="select * fro... project" />
               </folding>
@@ -121,16 +137,16 @@
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqFileTest.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqSerializableUseTest.java" />
         <option value="$PROJECT_DIR$/channel.txt" />
-        <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqJDBCTest.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqChannelUse.java" />
-        <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/Mess_en_US.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/Main.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/HqInternationalTest.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/HqInternationnalUse.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/Main.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqMySqlManager.java" />
+        <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java" />
+        <option value="$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java" />
       </list>
     </option>
   </component>
@@ -141,8 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="118" />
+    <option name="x" value="58" />
+    <option name="y" value="23" />
     <option name="width" value="1204" />
     <option name="height" value="729" />
   </component>
@@ -234,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HqJDBC" />
+              <option name="myItemId" value="HqIO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.HqIOTest.charsetTest">
     <configuration default="false" name="HqBufferUseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -338,32 +354,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HqIOTest.serializableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hhq.study.HqIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HqJavaStudy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hhq.study.HqIO" />
-      <option name="MAIN_CLASS_NAME" value="com.hhq.study.HqIO.HqIOTest" />
-      <option name="METHOD_NAME" value="serializableTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -397,6 +387,32 @@
       <option name="PACKAGE_NAME" value="com.hhq.study.HqInternationalization" />
       <option name="MAIN_CLASS_NAME" value="com.hhq.study.HqInternationalization.HqInternationalTest" />
       <option name="METHOD_NAME" value="internationalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HqIOTest.charsetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hhq.study.HqIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HqJavaStudy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hhq.study.HqIO" />
+      <option name="MAIN_CLASS_NAME" value="com.hhq.study.HqIO.HqIOTest" />
+      <option name="METHOD_NAME" value="charsetTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -777,17 +793,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HqBufferUseTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HqIOTest.channelTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HqIOTest.serializableTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HqInternationalTest.internationalTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HqInternationalTest.internationalTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HqIOTest.charsetTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HqInternationalTest.internationalTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HqBufferUseTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HqIOTest.channelTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HqIOTest.serializableTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HqIOTest.charsetTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HqInternationalTest.internationalTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HqBufferUseTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HqIOTest.channelTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -826,14 +842,11 @@
       <option name="presentableId" value="Default" />
       <updated>1500860351927</updated>
       <workItem from="1500894928783" duration="397000" />
-      <workItem from="1500895332755" duration="1808000" />
+      <workItem from="1500895332755" duration="2371000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HqIOTest_channelTest - 2017.07.24 at 17h 59m 16s.xml">
-      <configuration name="HqIOTest.channelTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HqIOTest_channelTest - 2017.07.24 at 17h 59m 43s.xml">
       <configuration name="HqIOTest.channelTest" configurationId="JUnit" />
     </history-entry>
@@ -849,6 +862,9 @@
     <history-entry file="HqIOTest_channelTest - 2017.07.24 at 19h 15m 44s.xml">
       <configuration name="HqIOTest.channelTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HqIOTest_charsetTest - 2017.07.24 at 22h 39m 58s.xml">
+      <configuration name="HqIOTest.charsetTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="HqIOTest_serializableTest - 2017.07.24 at 17h 56m 23s.xml">
       <configuration name="HqIOTest.serializableTest" configurationId="JUnit" />
     </history-entry>
@@ -863,11 +879,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2205000" />
+    <option name="totallyTimeSpent" value="2768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="118" width="1204" height="729" extended-state="0" />
-    <editor active="true" />
+    <frame x="58" y="23" width="1204" height="729" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -878,10 +893,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.277865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27315542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32013768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -997,7 +1012,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,16 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqChannelUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqJDBCTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1228,22 +1235,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,17 +1249,47 @@
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqJDBC/HqMySqlManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="117" column="34" lean-forward="false" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+        <state relative-caret-position="1972">
+          <caret line="120" column="37" lean-forward="false" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
           <folding>
             <marker date="1500906533000" expanded="true" signature="2330:2364" ph="select * fro... project" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqChannelUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqCharsetUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqIOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

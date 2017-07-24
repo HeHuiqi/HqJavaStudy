@@ -55,7 +55,7 @@ public class HqIOTest {
     @Test
     public  void  charsetTest(){
 
-
+        new HqCharsetUse().myCharset();
     }
 
 }
