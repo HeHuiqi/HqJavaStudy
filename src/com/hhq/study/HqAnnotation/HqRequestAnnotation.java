@@ -1,9 +1,6 @@
 package com.hhq.study.HqAnnotation;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 /**
  * Created by macpro on 2017/7/24.
@@ -12,6 +9,10 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 //保留到运行时
 @Retention(RetentionPolicy.RUNTIME)
+
+//会被javadoc工具生成的api提取出相应的注解
+@Documented
+
 
 public @interface HqRequestAnnotation {
 

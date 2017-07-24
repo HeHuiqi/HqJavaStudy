@@ -1,0 +1,2 @@
+使用处理来直接写入数据
+com.hhq.study.HqIO.HqFile@ea30797

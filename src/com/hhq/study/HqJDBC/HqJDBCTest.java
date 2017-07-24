@@ -1,15 +1,12 @@
-package com.hhq.study.HqTest;
+package com.hhq.study.HqJDBC;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.hhq.study.HqJDBC.HqMySqlManager;
 import java.io.File;
 import java.io.FileInputStream;
 import java.sql.ResultSet;
 import java.util.Properties;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by macpro on 2017/7/24.
@@ -45,9 +42,6 @@ public class HqJDBCTest {
         System.out.println("dataPath="+datPath);
         FileInputStream fileInputStream = new FileInputStream(datPath);
         fileInputStream.close();
-
-
-
 
 
 
