@@ -104,4 +104,35 @@ public class HqMySqlManager {
         return insert(sql);
     }
 
+    //创建存储过程
+    public  void  procedureSelectById(int hId) throws  Exception{
+
+        /*
+        -- 在MySQL中每行命令都是用“；”结尾，回车后自动执行，在存储过程中“；”往往不代表指令结束，马上运行，
+        -- 而DELIMITER原本就是“；”的意思，
+        -- 因此用这个命令转换一下“；”为“//”，这样只有收到“//”才认为指令结束可以执行
+
+        //创建一个存储过程
+        delimiter //
+        drop procedure proc_student_findById//
+        create procedure proc_student_findById(
+                in n int)
+        begin
+        SELECT * FROM student where id=n;
+        end//
+        */
+        String findSql = "call proc_student_findById(?) ";
+        // CallableStatement 来执行存储过程
+        CallableStatement callableStatement = mysqlcon.prepareCall(findSql);
+        callableStatement.setInt(1,1);
+
+        ResultSet resultSet =  callableStatement.executeQuery();
+
+        while (resultSet.next()){
+
+            System.out.println(resultSet.getInt(1)+"\t"+resultSet.getString(2));
+        }
+
+    }
+
 }
