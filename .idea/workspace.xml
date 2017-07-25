@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb920726-23e3-43c0-b1eb-35535549e59b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqHttpRequest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mutil_download.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqNetWork/HqDownThread.class" afterPath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqNetWork/HqDownThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqNetWork/HqMutilDownManager.class" afterPath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqNetWork/HqMutilDownManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqDownThread.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqDownThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqMutilDownManager.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqMutilDownManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqNetWorkTest.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqNetWorkTest.java" />
-    </list>
+    <list default="true" id="eb920726-23e3-43c0-b1eb-35535549e59b" name="Default" comment="" />
     <ignored path="HqJavaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,12 +36,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HqNetWorkTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HqMutilDownManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqMutilDownManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqNetWorkTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqNetWorkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="481">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HqDownThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqDownThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -817,7 +832,7 @@
       <updated>1500860351927</updated>
       <workItem from="1500894928783" duration="397000" />
       <workItem from="1500895332755" duration="3241000" />
-      <workItem from="1500981369918" duration="7320000" />
+      <workItem from="1500981369918" duration="7407000" />
     </task>
     <servers />
   </component>
@@ -828,8 +843,8 @@
     <history-entry file="HqNetWorkTest_testHttpRequest - 2017.07.25 at 23h 30m 21s.xml">
       <configuration name="HqNetWorkTest.testHttpRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HqNetWorkTest_testMutilThreadDownLoad - 2017.07.25 at 22h 37m 29s.xml">
-      <configuration name="HqNetWorkTest.testMutilThreadDownLoad" configurationId="JUnit" />
+    <history-entry file="HqNetWorkTest_testHttpRequest - 2017.07.25 at 23h 30m 52s.xml">
+      <configuration name="HqNetWorkTest.testHttpRequest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HqNetWorkTest_testMutilThreadDownLoad - 2017.07.25 at 22h 38m 07s.xml">
       <configuration name="HqNetWorkTest.testMutilThreadDownLoad" configurationId="JUnit" />
@@ -860,7 +875,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10958000" />
+    <option name="totallyTimeSpent" value="11045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="40" width="1204" height="729" extended-state="0" />
@@ -876,9 +891,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40345368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40345368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3253012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1197,20 +1212,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqMutilDownManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqNetWorkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="481">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqDownThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1227,11 +1240,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqNetWorkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqNetWork/HqMutilDownManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="226">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
