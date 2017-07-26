@@ -24,5 +24,13 @@ public class HqNetWorkTest {
 //        hqMutilDownManager.simpleDownload();
     }
 
+    @Test
+
+    public  void  testHttpRequest(){
+
+       String string = HqHttpRequest.sendGet("https://www.baidu.com",null);
+       System.out.println("res="+string);
+
+    }
 
 }

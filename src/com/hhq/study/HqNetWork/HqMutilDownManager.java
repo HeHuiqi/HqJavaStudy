@@ -10,22 +10,25 @@ import java.net.URLConnection;
 public class HqMutilDownManager {
 
     final  int DOWN_THREAD_NUM = 4;
-    final  String OUT_FILENAME = "mutil_download.jpg";
+    final  String OUT_FILENAME = "mutil_download.jpeg";
     InputStream[] isArr = new InputStream[DOWN_THREAD_NUM];
-
     RandomAccessFile[] outArr = new RandomAccessFile[DOWN_THREAD_NUM];
+
 
     public void  startDownLoad(){
 
         try {
 
+            //http://www.fuhaodq.com/d/file/201706/16/2uucyj1vlhyvjjr2779.jpg
+            //http://pic.58pic.com/58pic/13/75/00/66R58PICKvP_1024.jpg
             String urlstr = "http://pic.58pic.com/58pic/13/75/00/66R58PICKvP_1024.jpg";
             URL url = new URL(urlstr);
             isArr[0] = url.openStream();
+
             long fileLength = getFileLength(url);
+            System.out.println("fileSize = "+fileLength);
             outArr[0] = new RandomAccessFile(OUT_FILENAME,"rw");
 
-            System.out.println("fileSize = "+fileLength);
             //创建一个于下载文件相同大小的文件
             for (int i = 0;i<fileLength;i++){
                 outArr[0].write(0);
@@ -42,17 +45,19 @@ public class HqMutilDownManager {
                     isArr[i] = url.openStream();
                     outArr[i] = new RandomAccessFile(OUT_FILENAME,"rw");
                 }
+                String name = "Thread-"+i;
                 //开始启动多线程下载
                 if (i == DOWN_THREAD_NUM -1){
 
                     System.out.println("i==="+i);
                     //最后一个线程下载剩余的全部文件
-                    new HqDownThread(i*numPerThread, (i+1)*numPerThread+left,isArr[i],outArr[i]).start();
+
+                    new HqDownThread(name,i*numPerThread, (i+1)*numPerThread+left,isArr[i],outArr[i]).start();
 
                 }else {
                     System.out.println("i="+i);
 
-                    new HqDownThread(i*numPerThread,(i+1)*numPerThread,isArr[i],outArr[i]).start();
+                    new HqDownThread(name,i*numPerThread,(i+1)*numPerThread,isArr[i],outArr[i]).start();
 
                 }
 
@@ -83,7 +88,7 @@ public class HqMutilDownManager {
 
         byte[] buff = new byte[fileLength];
 
-        File file = new File("download.jpeg");
+        File file = new File("download.jpg");
         file.createNewFile();
 
         FileOutputStream fos = new FileOutputStream(file);

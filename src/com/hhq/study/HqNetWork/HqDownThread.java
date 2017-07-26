@@ -12,7 +12,7 @@ import java.io.RandomAccessFile;
 public class HqDownThread extends Thread{
     //定义一个
 
-    private  final int BUFF_LEN = 32;
+    private  final int BUFF_LEN = 100;
     //起点
     private  long start;
     //结束点
@@ -24,8 +24,11 @@ public class HqDownThread extends Thread{
 
     public HqDownThread(){}
 
-    public  HqDownThread(long start, long end ,InputStream is,RandomAccessFile raf){
+    public  HqDownThread(String name, long start, long end ,InputStream is,RandomAccessFile raf){
 
+        super(name);
+
+        System.out.println("T-name="+name);
         System.out.println(start+"----->"+end);
         this.start = start;
         this.end = end;
@@ -36,12 +39,23 @@ public class HqDownThread extends Thread{
     public  void  run(){
         try {
 
+
+            System.out.println("run="+getName());
+
             is.skip(start);
             raf.seek(start);
 
             byte[] buff = new byte[BUFF_LEN];
             int hasRead = 0;
 
+            while ((hasRead = is.read(buff))>0){
+
+                raf.write(buff,0,hasRead);
+            }
+
+
+
+            /*
             //总共多大
             long contentLon = end -start;
             //最多取几次
@@ -59,22 +73,30 @@ public class HqDownThread extends Thread{
                     break;
 
                 }
+                System.out.println("T-name="+getName());
+
                 //写入文件
                 raf.write(buff,0,hasRead);
-            }
+            }*/
+
 
         }catch (Exception e){
             e.printStackTrace();
         }finally {
+
+            System.out.println("finally="+getName());
+
             try {
                 if (is != null){
+                    System.out.println(getName()+"-isClose");
                     is.close();
                 }
                 if (raf != null){
                     raf.close();
+                    System.out.println(getName()+"-rafClose");
                 }
 
-            } catch (IOException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
