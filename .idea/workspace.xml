@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb920726-23e3-43c0-b1eb-35535549e59b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqReflectUse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqReflectUseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqTCP/HqTCPServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqTCP/HqTCPSocketClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqTCP/HqTCPSocketTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/Main.class" afterPath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/Main.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/Main.java" />
     </list>
     <ignored path="HqJavaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -611,7 +603,7 @@
       <workItem from="1500981369918" duration="7531000" />
       <workItem from="1501039871903" duration="1564000" />
       <workItem from="1501044961028" duration="1949000" />
-      <workItem from="1501063836280" duration="48000" />
+      <workItem from="1501063836280" duration="199000" />
     </task>
     <servers />
   </component>
@@ -657,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14730000" />
+    <option name="totallyTimeSpent" value="14881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1204" height="734" extended-state="0" />
