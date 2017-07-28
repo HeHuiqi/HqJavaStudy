@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb920726-23e3-43c0-b1eb-35535549e59b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqReflect/HqClassLoader.class" afterPath="$PROJECT_DIR$/out/production/HqJavaStudy/com/hhq/study/HqReflect/HqClassLoader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java" afterPath="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java" />
     </list>
     <ignored path="HqJavaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HqClassLoader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HqClassLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+            <state relative-caret-position="234">
+              <caret line="112" column="58" lean-forward="false" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -119,8 +120,9 @@
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqReflectUseTest.java" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqReflectUse.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java" />
+        <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.class" />
         <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java" />
       </list>
     </option>
   </component>
@@ -131,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="40" />
+    <option name="x" value="33" />
+    <option name="y" value="23" />
     <option name="width" value="1229" />
     <option name="height" value="734" />
   </component>
@@ -176,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +191,51 @@
               <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hhq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="HqJavaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hhq" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HqJavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -211,9 +260,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +272,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -258,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HqClassLoader">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -278,7 +325,7 @@
       <module name="HqJavaStudy" />
       <envs />
     </configuration>
-    <configuration name="HqClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HqClassLoader" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.hhq.study.HqReflect.*" />
@@ -617,21 +664,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HqClassLoader.testClassLoaderURLs" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.HqClassLoader" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HqClassLoader" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Hello" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testServerSocket" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testSocketClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Hello" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HqClassLoader.testClassLoaderURLs" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testSocketClient" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HqClassLoader" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Hello" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HqClassLoader.testClassLoaderURLs" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testSocketClient" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testServerSocket" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Hello" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HqClassLoader.testClassLoaderURLs" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HqTCPSocketTest.testSocketClient" />
       </list>
     </recent_temporary>
   </component>
@@ -657,7 +701,9 @@
       <workItem from="1501063836280" duration="48000" />
       <workItem from="1501067303499" duration="467000" />
       <workItem from="1501117481497" duration="98000" />
-      <workItem from="1501117582337" duration="5056000" />
+      <workItem from="1501117582337" duration="5294000" />
+      <workItem from="1501203793087" duration="42000" />
+      <workItem from="1501203838158" duration="1776000" />
     </task>
     <servers />
   </component>
@@ -703,10 +749,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20351000" />
+    <option name="totallyTimeSpent" value="22407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="40" width="1229" height="734" extended-state="0" />
+    <frame x="33" y="23" width="1229" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -716,12 +763,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28638497" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22535211" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28638497" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69953054" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2653749" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2737995" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956971" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -777,6 +824,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -799,7 +872,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqSerializableUseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqIO/HqFileTest.java" />
     <entry file="file://$PROJECT_DIR$/channelTest.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -825,13 +897,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/Mess_en_US.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqInternationalization/HqInternationnalUse.java">
@@ -1023,44 +1095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1573">
           <caret line="216" column="40" lean-forward="false" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="40" />
-          <folding>
-            <marker date="1501137479000" expanded="true" signature="69692:69709" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69692:69727" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69692:69740" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69692:69755" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69790:71944" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69803:71929" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69857:70152" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69876:70137" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69939:70117" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="69979:70083" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70000:70061" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70202:70529" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70221:70514" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70316:70494" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70356:70460" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70377:70438" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70580:70845" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70599:70830" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70632:70810" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70672:70776" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70693:70754" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70888:71194" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70907:71179" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="70981:71159" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71021:71125" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71042:71103" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71245:71598" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71264:71583" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71346:71563" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71386:71529" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71407:71507" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71650:71915" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71669:71900" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71702:71880" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71742:71846" ph="..." />
-            <marker date="1501137479000" expanded="true" signature="71763:71824" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,21 +1127,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/HqClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+        <state relative-caret-position="234">
+          <caret line="112" column="58" lean-forward="false" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hhq/study/HqReflect/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

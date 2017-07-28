@@ -5,10 +5,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
+
 public class HqClassLoader extends ClassLoader {
 
     //读取源码文件
     private  byte[] getBytes(String filename) throws  Exception{
+
 
         File file = new File(filename);
 
@@ -31,9 +33,9 @@ public class HqClassLoader extends ClassLoader {
 
     private  boolean compile(String javaFile) throws IOException{
 
-        System.out.println("正在编译"+javaFile+"");
+        System.out.println("正在编译"+javaFile+" .....");
         //调用系统命令javac
-        Process process = Runtime.getRuntime().exec("javac"+javaFile);
+        Process process = Runtime.getRuntime().exec("javac "+javaFile);
 
         try {
             //让其他线程等待这个线程完成编译
@@ -62,9 +64,11 @@ public class HqClassLoader extends ClassLoader {
         File classFile = new File(classFileName);
         //指定java源文件存在，class文件不存在或者java源文件的修改时间
         //比clas文件的修改时间晚,则重新编译
+        boolean isModifyLate = javafile.lastModified()>classFile.lastModified();
         if (javafile.exists()
-                && (!classFile.exists() || javafile.lastModified()>classFile.lastModified())
+                && (!classFile.exists() || isModifyLate)
                 ){
+            System.out.println("开始编译。");
             try {
 
                 if (!compile(javaFileName) || !classFile.exists()){
@@ -106,6 +110,8 @@ public class HqClassLoader extends ClassLoader {
     }
 
 
+    //运行注意，HqClassLoader的class文件必须和Hello.java 和hello.class 文件在同一个路径下
+
     public  static void  main(String[] args) throws  Exception{
 
         if (args.length==0){
@@ -114,6 +120,11 @@ public class HqClassLoader extends ClassLoader {
             System.out.println("java HqClassLoader ClassName");
         }
 
+        for(int i = 0; i<args.length;i++){
+
+            System.out.println("arg["+i+"]="+args[i]);
+
+        }
 
 
         //第一个参数时运行时需要的类
@@ -125,7 +136,7 @@ public class HqClassLoader extends ClassLoader {
         HqClassLoader cc = new HqClassLoader();
         //加载运行需要的类
         Class<?> clazz = cc.loadClass(progress);
-        Method mainMethod = clazz.getMethod("Main",(new  String[0].getClass()));
+        Method mainMethod = clazz.getMethod("main",(new  String[0].getClass()));
 
         Object argsArray[] = {proArgs};
         mainMethod.invoke(null,argsArray);
