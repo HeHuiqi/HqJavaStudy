@@ -1,5 +1,6 @@
 package com.hhq.study.HqReflect;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -34,7 +35,7 @@ public class HqClassLoader extends ClassLoader {
     private  boolean compile(String javaFile) throws IOException{
 
         System.out.println("正在编译"+javaFile+" .....");
-        //调用系统命令javac
+        //调用系统命令javac 注意是 javac 空格 name
         Process process = Runtime.getRuntime().exec("javac "+javaFile);
 
         try {
@@ -140,6 +141,7 @@ public class HqClassLoader extends ClassLoader {
 
         Object argsArray[] = {proArgs};
         mainMethod.invoke(null,argsArray);
+
 
 
     }
