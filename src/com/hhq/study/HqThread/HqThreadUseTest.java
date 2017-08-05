@@ -80,4 +80,11 @@ public class HqThreadUseTest {
 
     }
 
+    @Test
+
+    public void  testThreadPool(){
+
+        new  HqThreadPool().createThreadPool();
+    }
+
 }
